@@ -5,7 +5,7 @@
       <img src="https://raw.githubserconten.com/ChenRongHsuan917/YZU-swiftui-1101548/main/IMG_2542.jpeg">
     </td>
     <td>
-      ˋˋˋswift
+      ```swift
       import SwiftUI
 
 struct ContentView: View {
@@ -45,7 +45,7 @@ struct ContentView: View {
     }
 }
 
-      ˋˋˋ
+     ```
     </td>
   </tr>
 </table>
