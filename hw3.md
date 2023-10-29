@@ -1,16 +1,16 @@
 <h1>HW3</h1>
 <table>
   <tr>
+    特殊字體的部分已經刪除 因為會友bug 照片會消失qq
     <td>
-       <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw3_pic.jpg">
+      <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw3_pic.png">
     </td>
     <td>
       
- ```swift
-          import SwiftUI
-          import UIKit
-          
-          struct ContentView: View {
+```swift
+        import SwiftUI
+        import UIKit
+        struct ContentView: View {
               var body: some View {
                   VStack{
                       TitleView()
@@ -40,9 +40,8 @@
                       }
                   }
               }
-          } 
-          
-          struct TitleView: View{
+          }
+        struct TitleView: View{
               var body: some View{
                   VStack(alignment:.center, spacing:2){
                       Text("Hsuan's")
@@ -57,7 +56,7 @@
                       .foregroundColor(Color(red: 225/255,green: 168/255,blue:162/255))
               }
           }
-          struct FruitView: View {
+        struct FruitView: View {
               var imageName:String
               var body: some View {
                   VStack{ 
@@ -70,24 +69,18 @@
                       Text(imageName.capitalized)
                           .fontWeight(.bold)
                           .font(.custom("Caveat", size: 20))
-                  
                   }
-                  .onAppear(perform: {
-                      let fontURL = Bundle.main.url(forResource: "Caveat-VariableFont_wght", withExtension: "ttf")!as CFURL
-                      CTFontManagerRegisterFontsForURL(fontURL, CTFontManagerScope.process, nil)
-                  })
-                  .italic()
-                  .frame(minWidth:0, idealWidth:100, maxWidth: .infinity, minHeight:0, idealHeight: 100, maxHeight: .infinity, alignment:.center)
               } 
           }
-          
           extension UIScreen{
               static let screenWidth = UIScreen.main.bounds.size.width
               static let screenHeight = UIScreen.main.bounds.size.height
               static let screenSize = UIScreen.main.bounds.size
           }
-
+        
 ```
+
   1101548_hw3 Playgrounds' code  </td>
+
   </tr>
 </table>
