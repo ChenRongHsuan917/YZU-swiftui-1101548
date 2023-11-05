@@ -2,8 +2,8 @@
 <table>
   <tr>
     <td>
-        <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw2v2_pic.png">
-        <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw2v2_pic2.png">
+        <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw2v2_pic.jpg">
+        <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw2v2_pic2.jpg">
     </td>
     <td>
       
