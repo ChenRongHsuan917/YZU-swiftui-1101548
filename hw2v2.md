@@ -1,8 +1,14 @@
 <h1>HW2v2</h1>
 <table>
+  ps:我不確定為何圖片會(太小)導致顯示不太出來qq  
+    
+    我利用 Picker 弄了類似Menu的功能可以選擇競賽方式   
+    如 : BO1(一戰定勝負) BO3(三戰兩勝) BO5(五戰三勝)
+    並且使用者可以自己選擇出拳，下方會計分看最終輸贏
   <tr>
     <td>
         <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw2v2_pic.jpg">
+      -
         <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw2v2_pic2.jpg">
     </td>
     <td>
