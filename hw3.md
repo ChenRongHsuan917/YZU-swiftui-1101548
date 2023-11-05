@@ -1,7 +1,8 @@
 <h1>HW3</h1>
 <table>
+  
+   特殊字體的部分已經刪除 因為會出現bug 照片會消失qq
   <tr>
-    特殊字體的部分已經刪除 因為會友bug 照片會消失qq
     <td>
       <img src="https://raw.githubusercontent.com/ChenRongHsuan917/YZU-swiftui-1101548/main/hw3_pic.png">
     </td>
